@@ -1,0 +1,497 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.bdy {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.part1 {
+    width: 25%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    /* background-color: #EADBC8; */
+    background-color:   #cdbba6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url("pics/Blue\ White\ Aesthetic\ Daily\ Reminder\ Instagram\ Story.png");
+     background-size: cover;
+     
+     
+    
+}
+
+.part2 {
+    width: 75%;
+    height: 100vh;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.upperhalf {
+    width: 117.5%;
+    height: 38%;
+    /* border: 2px solid black; */
+    transform: translateX(-15%);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #faf7f2;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    
+}
+.circle{
+    height: 200px;
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.name{
+    height: 200px;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+.lowerhalf {
+    width: 100%;
+    height: 60%;
+    /* border: 2px solid black; */
+   
+    /* flex-direction: row; */
+}
+.maincircle{
+    height: 100%;
+    width: 95%;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    transform: translateX(-30%);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 3px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.contact{
+    height: 30%;
+    width: 95%;
+    padding-top: 60px;
+    padding-left: 20px;
+    /* border: 2px solid black;  */
+    
+}
+.edu{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.education{
+    /* border: 2px solid black; */
+    height: 80%;
+    width:  40%;
+    /* background-color: red; */
+}
+.tskills{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 40%;
+    /* background-color: green;  */
+}
+.pskills{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 40%;
+    /* background-color: green;  */
+}
+.mainphoto{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.bar-container {
+    width: 200px;
+    height: 6px;
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+
+  }
+
+  /* CSS to style the bar itself */
+  .bar {
+    height: 100%;
+    /* background-color: #74553e; */
+    background-color: black;
+    width: 0px;
+    transition: width 3s; /* Add a smooth transition effect */
+  }
+  .about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf7f2;
+    background-image: url('pics/istockphoto-1182956228-612x612.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; 
+  }
+  .heading{
+    height: 100vh;
+    width: 30%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .des{
+    height: 100vh;
+    width: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hehe{
+    align-self: flex-start;
+  }
+  .text{
+    height: 200px;
+    width: 800px;
+    /* background-color: #A4907C; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pics/");
+    border-radius:25px;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: large;
+    background-image: url("pics/Light\ Modern\ Textile\ Minimalism\ Desktop\ Wallpaper.png");
+    /* font-weight: bold; */
+    /* line-height: 2px; */
+    letter-spacing: 2px;
+    /* background-image: 
+    url("A4907C"); */
+
+  }
+
+.fancyy {
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .fancy {
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+      background-image: 
+        url("https://images.unsplash.com/photo-1513976993080-5ba0e9f0b51c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+      background-size: 110% auto;
+      background-position: center;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+  .upperhalf{
+    border-radius: 10px;
+    /* background-image:  */
+    /* url("pics/Light\ Modern\ Textile\ Minimalism\ Desktop\ Wallpaper.png");
+     */
+    
+    /* background-size: cover; */
+     background: #F0F8FF;;
+  }
+  .projects .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .projects .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+  .projects .boxes .box2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pics/Screenshot\ 2023-09-15\ 013541.png");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  }
+  .projects .boxes .box1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pics/Screenshot\ 2023-09-15\ 013451.png");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  }
+  .projects .boxes .box3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pics/Screenshot\ 2023-09-15\ 013406.png");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  }
+  .projects .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background:  #A4907C;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+  }
+  .boxes .box:hover .icon{
+    background-color: #fff;
+    color:  #A4907C;
+  }
+  .projects .boxes .box:hover .topic,
+  .projects .boxes .box:hover p{
+    color: #0E2431;
+    transition: all 0.4s ease;
+  }
+  .projects .boxes .box:hover .topic,
+  .projects .boxes .box:hover p{
+    color: #fff;
+  }  
+  .projects{
+    margin: 50px;
+  }
+  .ppp{
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 1px;
+    letter-spacing: 1px;
+    margin: auto;
+  }
+  .title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+/* Contact Me CSS */
+.contact{
+    background: #F0F8FF;
+    margin: 0 auto;
+  }
+  .contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .contact .content .title{
+    font-size: xx-large;
+    color: #A4907C;
+    padding: 20px 0;
+  }
+  .contact .text1{
+    width: 80%;
+    font-size: large;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contact .text1 .button button{
+    width:12.5%;
+    padding: 5px 15px;
+    text-align: center;
+    background-color: #faf7f2;
+    border-color: black;
+    border:2px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+  .contact .text1 .button button a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .contact .text1 .button button:hover{
+
+    background-color: #A4907C;
+    color:  black;
+  }
+  
+  /* Footer CSS */
+  footer{
+    background:  #A4907C;;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer .text2 span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+  footer .text2 span a{
+    font-weight: 500;
+    color: #FFF;
+  }
+  footer .text2 span a:hover{
+    text-decoration: underline;
+  }
+  /* Scroll TO Top Button CSS */
+  .scroll-button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background:  #A4907C;;
+    padding: 7px 12px;;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+  }
